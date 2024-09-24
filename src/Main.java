@@ -10,7 +10,7 @@ public class Main
         String trash = "";
 
 
-        System.out.println("Enter your age: ");
+        System.out.print("Enter your age: ");
 
 
         if (in.hasNextInt())
