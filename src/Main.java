@@ -4,18 +4,14 @@ public class Main
 {
     public static void main(String[] args)
     {
-        //num LEGAL_AGE = 21
-        //num userAge = 0
         Scanner in = new Scanner(System.in);
         final int LEGAL_AGE = 21;
         int userAge = 0;
         String trash = "";
 
-        //output “Enter your age: ”
 
         System.out.println("Enter your age: ");
 
-        //input userAge
 
         if (in.hasNextInt())
         {
@@ -30,9 +26,6 @@ public class Main
             System.exit(0);
         }
 
-        //if userAge >= LEGAL_AGE then
-        //output “Congratulations! You get a wristband.”
-        //endIf
 
         if (userAge >= LEGAL_AGE)
         {
