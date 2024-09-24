@@ -36,7 +36,7 @@ public class Main
 
         if (userAge >= LEGAL_AGE)
         {
-            System.out.println("Congratulations! You get a wristband.");
+            System.out.println("\nCongratulations! You get a wristband.");
         }
     }
 }
